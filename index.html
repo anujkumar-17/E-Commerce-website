@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boat Headphone Detail Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">E-Shop</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products">
+            <button>Search</button>
+        </div>
+        <div class="user-options">
+            <button>Account</button>
+            <button>Orders</button>
+            <button>Cart (<span id="cart-count">0</span>)</button>
+        </div>
+    </header>
+    <main>
+        <div class="product-container">
+            <div class="product-image">
+                <img src="boat-headphone.jpg.webp" alt="Boat Headphone">
+            </div>
+            <div class="product-details">
+                <h1>Boat Rockerz 450 Bluetooth Headphone</h1>
+                <div class="price-rating">
+                    <p class="price">₹1799</p>
+                    <p class="sale-price">₹1499</p>
+                    <p class="discount">17% off</p>
+                    <div class="rating">
+                        <span>★★★★☆</span>
+                        <span>4.5 out of 5 stars</span>
+                    </div>
+                </div>
+                <p class="description">
+                    Experience the true immersive sound with the Boat Rockerz 450 Bluetooth Headphone.
+                    It comes with a powerful battery life and superior sound quality.
+                </p>
+                <button id="add-to-cart-btn">Add to Cart</button>
+                <div class="product-features">
+                    <h2>Product Features</h2>
+                    <ul>
+                        <li>Bluetooth Connectivity</li>
+                        <li>Up to 15 hours of battery life</li>
+                        <li>Comfortable ear cushions</li>
+                        <li>Built-in microphone</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="reviews-container">
+            <h2>Customer Reviews</h2>
+            <div id="reviews"></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
