@@ -6,12 +6,12 @@ document.getElementById('add-to-cart-btn').addEventListener('click', function() 
 
 const reviews = [
     {
-        reviewer: 'John Doe',
+        reviewer: 'Rahul Jain',
         rating: 5,
         comment: 'Amazing sound quality and battery life!'
     },
     {
-        reviewer: 'Jane Smith',
+        reviewer: 'Steve Smith',
         rating: 4,
         comment: 'Very comfortable to wear for long periods.'
     },
