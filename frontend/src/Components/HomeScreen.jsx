@@ -26,22 +26,36 @@ const HomeScreen = () => {
 
   return (
     <div className="home-screen">
-      {/* Header */}
-      <header className="header">
-        <div className="logo">
-          <h1>eShop</h1>
+      {/* Custom Header */}
+      <header className="custom-header">
+        {/* Logo */}
+        <div className="logo-container">
+          <Link to="/" className="logo">eShop</Link>
         </div>
-        <div className="search-bar">
+
+        {/* Search Bar */}
+        <div className="search-bar-container">
           <input
             type="text"
-            placeholder="Search for products..."
+            className="search-input"
+            placeholder="Search for products"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
+          <button className="search-button">Search</button>
         </div>
-        <div className="header-links">
-          <Link to="/cart" className="cart-link">Cart</Link>
-          <Link to="/account" className="account-link">Account</Link>
+
+        {/* Navigation Links */}
+        <div className="nav-links">
+          <Link to="/account" className="nav-link">
+            <i className="fa fa-user"></i> Account
+          </Link>
+          <Link to="/orders" className="nav-link">
+            <i className="fa fa-box"></i> Orders
+          </Link>
+          <Link to="/cart" className="cart-link">
+            <i className="fa fa-shopping-cart"></i> Cart
+          </Link>
         </div>
       </header>
 
@@ -51,10 +65,15 @@ const HomeScreen = () => {
           <Link to={`/${product.productId}`} key={product.productId} className="product-card">
             <img src={product.imageUrl} alt={product.name} />
             <h2>{product.name}</h2>
-            <p>₹{product.price.toFixed(2)}</p>
+            <p className="price">₹{product.price.toFixed(2)}</p>
           </Link>
         ))}
       </div>
+
+      {/* Footer */}
+      <footer className="footer">
+        <p>© 2025 eShop, All Rights Reserved</p>
+      </footer>
     </div>
   );
 };
