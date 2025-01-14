@@ -59,3 +59,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+
+// Connecting to Database Engine  -->  MAQN1359\ANUJINSTANCE  --> Windows Authentication  ---> (Encryption) : optional , check trust server certificate
