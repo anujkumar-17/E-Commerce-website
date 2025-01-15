@@ -5059,11 +5059,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MAQN\\Desktop\\product-detail-page\\Backend\\Backend.csproj",
+      "projectUniqueName": "C:\\Users\\MAQN\\Desktop\\product-detail-page\\backend\\Backend.csproj",
       "projectName": "Backend",
-      "projectPath": "C:\\Users\\MAQN\\Desktop\\product-detail-page\\Backend\\Backend.csproj",
+      "projectPath": "C:\\Users\\MAQN\\Desktop\\product-detail-page\\backend\\Backend.csproj",
       "packagesPath": "C:\\Users\\MAQN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MAQN\\Desktop\\product-detail-page\\Backend\\obj\\",
+      "outputPath": "C:\\Users\\MAQN\\Desktop\\product-detail-page\\backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MAQN\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -5150,7 +5150,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
