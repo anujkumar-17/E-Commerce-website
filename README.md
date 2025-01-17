@@ -1,6 +1,6 @@
-# 🛒 E-Commerce Product Page
+# 🛒 E-Commerce Website
 
-The **E-Commerce Product Page** is a dynamic and interactive web application designed to showcase individual product details. It enables users to explore product information, add items to their cart, and read or submit reviews. This project demonstrates seamless integration between a React-based frontend, a .NET Core backend, and a SQL Server database.
+The **E-Commerce Website** is a dynamic and interactive web application designed to showcase details of all the available products. It enables users to explore product information, add items to their cart, and read or submit reviews. This project demonstrates seamless integration between a React-based frontend, a .NET Core backend, and a SQL Server database.
 
 ---
 
@@ -27,6 +27,7 @@ The **E-Commerce Product Page** is a dynamic and interactive web application des
 ### Products
 - `GET /api/products` - Retrieve all products.
 - `GET /api/products/{id}` - Retrieve details of a specific product.
+- `POST /api/products` - For adding new product.
 
 ### Reviews
 - `POST /api/reviews` - Add a new review for a product.
