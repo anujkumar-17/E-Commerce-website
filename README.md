@@ -43,37 +43,38 @@ Follow these steps to set up the project locally:
 
 ### Frontend Setup
 1. Clone the Repository:
-   ```bash
+```bash
    git clone https://github.com/anujkumar-17/E-Commerce-website.git
+```
 
 2. Navigate to the frontend directory and install dependencies:
 ```bash
-cd E-Commerce-website/Frontend/
-npm install
+   cd E-Commerce-website/Frontend/
+   npm install
 ```
 3. Start the development server:
 ```bash
-npm run dev
+   npm run dev
 ```
 
 ### Backend Setup
 
 1. Navigate to the backend directory and restore dependencies:
 ```bash
-cd ../Backend
-dotnet restore
+   cd ../Backend
+   dotnet restore
 ```
 2. Configure the SQL Server connection in appsettings.json:
 ```bash
-{
-    "ConnectionStrings": {
-        "DefaultConnection": "<Your SQL Server Connection String>"
-    }
-}
+   {
+      "ConnectionStrings": {
+         "DefaultConnection": "<Your SQL Server Connection String>"
+      }
+   }
 ```
 3. Run the backend server:
 ```bash
-dotnet run
+   dotnet run
 ```
 
 ## Technologies Used
